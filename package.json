@@ -1,0 +1,32 @@
+{
+  "name": "socialnetwork",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.1.4",
+    "react": "^16.5.2",
+    "react-cookies": "^0.1.0",
+    "react-dom": "^16.5.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "set PORT=3001 && react-scripts start",
+    "server": "nodemon --inspect ./server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

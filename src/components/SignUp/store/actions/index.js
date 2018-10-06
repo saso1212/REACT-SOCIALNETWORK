@@ -1,0 +1,1 @@
+export { onSignUpData } from './signUp';

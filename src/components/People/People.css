@@ -1,0 +1,11 @@
+.People {
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.People h4 {
+    margin-right: 10px;
+    display: inline-block;
+}
